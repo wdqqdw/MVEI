@@ -1,6 +1,6 @@
 # Customizing Visual Emotion Evaluation for MLLMs  
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](link-to-paper)  [![Data](https://img.shields.io/badge/Data-HuggingFace-orange)](link-to-benchmark)  
+[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](link-to-paper)  [![Data](https://img.shields.io/badge/Data-HuggingFace-orange)](https://huggingface.co/datasets/wudq/MVEI/tree/main/MVEI) 
 
 Project page of:  
 **Customizing Visual Emotion Evaluation for MLLMs: An Open-Vocabulary, Multifaceted, and Scalable Approach**  
@@ -75,6 +75,7 @@ The **INSETS** pipeline (**I**ntelligent **Vi**sual **E**motion **T**agger and *
 
 - **INSETS-462k** is a large-scale corpus containing 462,369 emotion-centric statements derived from 17,716 images, annotated automatically via the INSETS pipeline.
 - **MVEI** is a carefully human-refined benchmark comprising 3,086 high-quality image-statement pairs, designed for comprehensive evaluation of MLLMs' visual emotion intelligence.
+- We gratefully acknowledge the [EmoSet](https://vcc.tech/EmoSet) dataset as the source of all images used in INSETS-462k and MVEI.
 
 <table>
 <tr>
