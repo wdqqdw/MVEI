@@ -106,3 +106,48 @@ We evaluate a wide range of MLLMs on the MVEI benchmark. Below are the accuracy 
 </td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td align="center">
+<img src="images/MVEI-3.jpeg" width="100%">
+<br>
+<em>Figure 7: Correct emotion interpretation statements.</em>
+</td>
+<td align="center">
+<img src="images/MVEI-4.jpeg" width="100%">
+<br>
+<em>Figure 8: Incorrect emotion interpretation statements.</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<img src="images/MVEI-5.jpeg" width="100%">
+<br>
+<em>Figure 9: Correct scene context statements.</em>
+</td>
+<td align="center">
+<img src="images/MVEI-6.jpeg" width="100%">
+<br>
+<em>Figure 10: Incorrect scene context statements.</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<img src="images/MVEI-7.jpeg" width="100%">
+<br>
+<em>Figure 11: Correct perception subjectivity statements.</em>
+</td>
+<td align="center">
+<img src="images/MVEI-8.jpeg" width="100%">
+<br>
+<em>Figure 12: Incorrect perception subjectivity statements.</em>
+</td>
+</tr>
+</table>
