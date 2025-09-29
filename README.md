@@ -1,6 +1,6 @@
 # Customizing Visual Emotion Evaluation for MLLMs  
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](link-to-paper)  [![Data](https://img.shields.io/badge/Data-HuggingFace-orange)](https://huggingface.co/datasets/wudq/MVEI/tree/main/MVEI) 
+[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2509.21950)  [![Data](https://img.shields.io/badge/Data-HuggingFace-orange)](https://huggingface.co/datasets/wudq/MVEI/tree/main/MVEI) 
 
 Project page of:  
 **Customizing Visual Emotion Evaluation for MLLMs: An Open-Vocabulary, Multifaceted, and Scalable Approach**  
