@@ -1,6 +1,6 @@
 # Customizing Visual Emotion Evaluation for MLLMs  
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2509.21950)  [![Data](https://img.shields.io/badge/Data-HuggingFace-orange)](https://huggingface.co/datasets/wudq/MVEI/tree/main/MVEI) 
+[![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2509.21950)  [![MVEI](https://img.shields.io/badge/MVEI-HuggingFace-orange)](https://huggingface.co/datasets/wudq/MVEI/tree/main/MVEI)  [![INSETS-462k](https://img.shields.io/badge/INSETS_462k-HuggingFace-orange)](https://huggingface.co/datasets/wudq/INSETS-462k)
 
 Project page of:  
 **Customizing Visual Emotion Evaluation for MLLMs: An Open-Vocabulary, Multifaceted, and Scalable Approach**  
@@ -17,14 +17,14 @@ Project page of:
   - [x] Include open-vocabulary emotion annotations
   - [x] Include emotion-centric statements
   - [x] Add dataset documentation and usage examples
+- [x] Upload INSETS-462k corpus
+  - [x] Include open-vocabulary emotion annotations
+  - [x] Include emotion-centric statements
+  - [x] Include intermediate results, i.e., candidate emotions, prototype statements
 
 ## 🔄 In Progress
 
 - [ ] Release standard evaluation script
-- [ ] Upload INSETS-462k corpus
-  - [ ] Include open-vocabulary emotion annotations
-  - [ ] Include emotion-centric statements
-  - [ ] Include intermediate results, i.e., candidate emotions, prototype statements
 - [ ] Release INSETS pipeline code
 
 ---
