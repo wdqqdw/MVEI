@@ -21,10 +21,10 @@ Project page of:
   - [x] Include open-vocabulary emotion annotations
   - [x] Include emotion-centric statements
   - [x] Include intermediate results, i.e., candidate emotions, prototype statements
+- [x] Release standard evaluation script
 
 ## 🔄 In Progress
 
-- [ ] Release standard evaluation script
 - [ ] Release INSETS pipeline code
 
 ---
@@ -49,6 +49,10 @@ The **Emotion Statement Judgment (ESJ)** task reformulates visual emotion evalua
 <div align="center">
 <em>Figure 1: Comparison between traditional emotion evaluation approaches and the proposed ESJ task.</em>
 </div>
+
+---
+
+## Evaluation on MVEI
 
 ---
 
