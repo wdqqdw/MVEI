@@ -183,12 +183,12 @@ We evaluate a wide range of MLLMs on the MVEI benchmark. Below are the accuracy 
 <td align="center">
 <img src="images/MVEI-1.jpeg" width="100%">
 <br>
-<em>Figure 5: Correct sentiment polarity statements.</em>
+<em>Figure 5: Sentiment polarity statements labeled as correct.</em>
 </td>
 <td align="center">
 <img src="images/MVEI-2.jpeg" width="100%">
 <br>
-<em>Figure 6: Incorrect sentiment polarity statements.</em>
+<em>Figure 6: Sentiment polarity statements labeled as incorrect.</em>
 </td>
 </tr>
 </table>
@@ -198,12 +198,12 @@ We evaluate a wide range of MLLMs on the MVEI benchmark. Below are the accuracy 
 <td align="center">
 <img src="images/MVEI-3.jpeg" width="100%">
 <br>
-<em>Figure 7: Correct emotion interpretation statements.</em>
+<em>Figure 7: Emotion interpretation statements labeled as correct.</em>
 </td>
 <td align="center">
 <img src="images/MVEI-4.jpeg" width="100%">
 <br>
-<em>Figure 8: Incorrect emotion interpretation statements.</em>
+<em>Figure 8: Emotion interpretation statements labeled as incorrect.</em>
 </td>
 </tr>
 </table>
@@ -213,12 +213,12 @@ We evaluate a wide range of MLLMs on the MVEI benchmark. Below are the accuracy 
 <td align="center">
 <img src="images/MVEI-5.jpeg" width="100%">
 <br>
-<em>Figure 9: Correct scene context statements.</em>
+<em>Figure 9: Scene context statements labeled as correct.</em>
 </td>
 <td align="center">
 <img src="images/MVEI-6.jpeg" width="100%">
 <br>
-<em>Figure 10: Incorrect scene context statements.</em>
+<em>Figure 10: Scene context statements labeled as incorrect.</em>
 </td>
 </tr>
 </table>
@@ -228,12 +228,23 @@ We evaluate a wide range of MLLMs on the MVEI benchmark. Below are the accuracy 
 <td align="center">
 <img src="images/MVEI-7.jpeg" width="100%">
 <br>
-<em>Figure 11: Correct perception subjectivity statements.</em>
+<em>Figure 11: Perception subjectivity statements labeled as correct.</em>
 </td>
 <td align="center">
 <img src="images/MVEI-8.jpeg" width="100%">
 <br>
-<em>Figure 12: Incorrect perception subjectivity statements.</em>
+<em>Figure 12: Perception subjectivity statements labeled as incorrect.</em>
 </td>
 </tr>
 </table>
+
+## 📌 Citation
+If you find this work useful, please consider citing our paper:
+<pre>
+@inproceedings{wu2026mvei,
+  title = {Customizing Visual Emotion Evaluation for MLLMs: An Open-Vocabulary, Multifaceted, and Scalable Approach},
+  author = {Daiqing Wu and Dongbao Yang and Sicheng Zhao and Can Ma and Yu Zhou},
+  booktitle = {The Fourteenth International Conference on Learning Representations},
+  year = {2026},
+  url = {https://openreview.net/forum?id=dQTSXWqZws}
+}
