@@ -87,7 +87,7 @@ To run the script, modify:
 - `--MVEI_path` to `path/to/your/dataset`.
 - `--model_path` to `path/to/downloaded/Qwen2.5-VL-Instruct`.
 
-After modification, running the script will store the inference results by default at `path/to/your/dataset/predictions/MVEI_predict.json`. The script augments each statement with a `predict` key. An example entry is shown below:
+After modification, running the script will store the inference results by default at `path/to/your/dataset/predictions/MVEI_predict.json`. This process takes approximately 20 minutes on a single A100 GPU. The script augments each statement with a `predict` key. An example entry is shown below:
 
 ```json
 {
