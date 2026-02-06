@@ -54,6 +54,66 @@ The **Emotion Statement Judgment (ESJ)** task reformulates visual emotion evalua
 
 ## Evaluation on MVEI
 
+We provide scripts for running inference and evaluating models on MVEI.
+
+**Step 1. Dataset Preparation**
+
+To evaluate MLLMs on MVEI, first download the dataset from [https://huggingface.co/wudq/MVEI](https://huggingface.co/wudq/MVEI) to `path/to/your/dataset`, and then unzip `images.zip`.
+The annotations of MVEI are stored in `MVEI_metadata.json`, which is a list where each entry corresponds to one image. An example annotation is shown below:
+
+```json
+{
+  "image_id": "contentment/contentment_14236.jpg",
+  "ov_emotion": [
+    "tranquility",
+    "contentment"
+  ],
+  "statement_list": [
+    {
+      "statement": "Upon viewing this image, observers, despite various individual or contextual factors, are most likely to experience negative emotions.",
+      "label": "incorrect",
+      "class": "sentiment polarity",
+      "subclass": "none"
+    }
+  ]
+}
+```
+
+**Step 2. Model Inference**
+
+Run inference with the MLLM to be evaluated and store the predictions. We provide an example for evaluating [Qwen2.5-VL-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) in `eval/infer_example.py`.
+
+To run the script, modify:
+- `--MVEI_path` to `path/to/your/dataset`.
+- `--model_path` to `path/to/downloaded/Qwen2.5-VL-Instruct`.
+
+After modification, running the script will store the inference results by default at `path/to/your/dataset/predictions/MVEI_predict.json`. The script augments each statement with a `predict` key. An example entry is shown below:
+
+```json
+{
+  "image_id": "contentment/contentment_14236.jpg",
+  "ov_emotion": [
+    "tranquility",
+    "contentment"
+  ],
+  "statement_list": [
+    {
+      "statement": "Upon viewing this image, observers, despite various individual or contextual factors, are most likely to experience negative emotions.",
+      "label": "incorrect",
+      "class": "sentiment polarity",
+      "subclass": "none"
+      "predict": "Incorrect"
+    }
+  ]
+}
+```
+
+**Step 3. Metric Calculation**
+
+Run `eval/cal_metrics.py` to compute evaluation metrics based on the predictions. Modify:
+- `--input_json` to the path of the prediction file (e.g., `path/to/your/dataset/predictions/MVEI_predict.json`).
+- `--output_txt` to a desired output path, where the final evaluation results will be saved.
+
 ---
 
 ## INSETS Pipeline
