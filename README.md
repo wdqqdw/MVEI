@@ -2,6 +2,8 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-blue)](https://arxiv.org/abs/2509.21950)  [![MVEI](https://img.shields.io/badge/MVEI-HuggingFace-orange)](https://huggingface.co/datasets/wudq/MVEI/tree/main/MVEI)  [![INSETS-462k](https://img.shields.io/badge/INSETS_462k-HuggingFace-orange)](https://huggingface.co/datasets/wudq/INSETS-462k)
 
+> **Expanded release:** For the EmObserver model, four-stage training code, expanded evaluation suite, and MVEI_PLUS data, see [wdqqdw/EmObserver](https://github.com/wdqqdw/EmObserver), [wudq/EmObserver](https://huggingface.co/wudq/EmObserver), and [wudq/MVEI_PLUS](https://huggingface.co/datasets/wudq/MVEI_PLUS).
+
 Project page of:  
 **Customizing Visual Emotion Evaluation for MLLMs: An Open-Vocabulary, Multifaceted, and Scalable Approach**  
 *Daiqing Wu, Dongbao Yang, Sicheng Zhao, Can Ma, Yu Zhou*  
