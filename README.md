@@ -10,27 +10,6 @@ Project page of:
 
 ---
 
-# TODO List
-
-## ✅ Completed
-
-- [x] Create repository and setup project overview
-- [x] Upload MVEI benchmark dataset
-  - [x] Include open-vocabulary emotion annotations
-  - [x] Include emotion-centric statements
-  - [x] Add dataset documentation and usage examples
-- [x] Upload INSETS-462k corpus
-  - [x] Include open-vocabulary emotion annotations
-  - [x] Include emotion-centric statements
-  - [x] Include intermediate results, i.e., candidate emotions, prototype statements
-- [x] Release standard evaluation script
-
-## 🔄 In Progress
-
-- [ ] Release INSETS pipeline code
-
----
-
 ## 📖 Overview  
 
 This repository provides the **code and data** introduced in our paper.  
